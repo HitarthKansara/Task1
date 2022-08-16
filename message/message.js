@@ -1,0 +1,48 @@
+module.exports = {
+    // add messages over here
+
+    USER: {
+        LOGIN_SUCCESS: 'Login successfully.',
+        RESETPASSWORD_SUCCESS: 'Your password has been updated successfully.',
+        FORGOTPASSWORD_SUCCESS: 'Your password has been updated successfully.',
+        USERDETAIL_NOT_AVAILABLE: 'User details not found.',
+        INVALIDOLDPASSWORD: 'Please enter valid current password.',
+        PASSWORDMINLENGTH: 'Your password must contain at least 6 characters.',
+        PROFILE_FETCH_SUCCESS: 'Profile fetch successfull.',
+        PROFILE_UPDATE_SUCCESS: 'Profile updated successfully.',
+        EMAIL_NOT_FOUND: 'Email does not exist.',
+        USER_NOT_FOUND: 'User does not exist.',
+        INVALID_PASSWORD: 'Invalid email or password.',
+        USER_DETAILS_NOT_AVAILABLE: 'User details not available.',
+        GET_USER_PROFILE: 'User profile get profile.',
+        GET_USER_LIST: 'User list get successfully.',
+        DEACTIVE_ACCOUNT: 'Your account is deactivated, please contact administrator.',
+        USER_DELETED: 'User deleted successfully.',
+        EMAIL_CHANGE_ERROR: 'Email not changed, error in sending email. All other details updated successfully.',
+        PROFILE_UPDATE_WITH_EMAIL_SUCCESS: 'Profile updated successfully. Please verify your new email.',
+        USER_CREATED: 'User created successfully.',
+        ALREADY_EXIST: 'User already exists.',
+        UPDATE_SUCCESS: 'User updated successfully.'
+    },
+
+    GENERAL: {
+        EMAIL_ALREADY_EXIST: 'Email is already registered, please use different mail.',
+        GENERAL_ERROR_CONTENT: 'Something went wrong. Please try again later.',
+        UNAUTHORIZED_USER: 'Unauthorized, please login.',
+        RESTRICTED_USER: 'You are not authorized to do this operation.',
+        GET_LIST: 'Get list successfully.',
+        NOT_FOUND: 'List not found.',
+        GENERAL_ERROR_CONTENT: 'Something went wrong, please contact administrator.',
+    },
+
+    ROLE: {
+        ALREADY_EXISTS: 'Role already exists.',
+        CREATED: 'Role created successfully.',
+        LIST_NOT_FOUND: 'Role list not found.',
+        GET_LIST: 'Role list fetched successfully.',
+        UPDATE: 'Role updated successfully.',
+        DELETED: 'Role deleted successfully.',
+        UNIQUE_ACCESS_MODULES: 'Some access modules already exists.',
+        REMOVE_ONE_ACCESS_MODULE_PER_UPDATE: 'Only one access module can be removed at a time.'
+    }
+}
